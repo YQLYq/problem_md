@@ -2,7 +2,7 @@
 
 ## 	1.常用命令
 
-<img src = "git_img/1.png">
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072230827.png">
 
 （第一次使用要设置用户签名 才能提交代码 配置文件在C:\Users\ASUS\ .gitconfig）
 
@@ -11,7 +11,7 @@ git config --global user.name yql
 git config --global user.email 1014796661@qq.com
 ```
 
-<img src = "git_img/2.png">
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072230828.png">
 
 ### 1.1初始化
 
@@ -19,11 +19,11 @@ git config --global user.email 1014796661@qq.com
 git init 
 ```
 
-![image-20230103202055227](\git_img\image-20230103202055227.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072211096.png"/>
 
 生成.git
 
-![image-20230103202153702](\git_img\image-20230103202153702.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072345008.png"/>
 
 ### 1.2查看本地库状态
 
@@ -33,11 +33,11 @@ git status
 
 #### 1.2.1首次查看（工作区没有文件）
 
-![image-20230103210858440](\git_img\image-20230103210858440.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072212789.png"/>
 
 #### 1.2.2添加文件后（检测到未追踪的文件）
 
-![image-20230103211005494](\git_img\image-20230103211005494.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072212996.png"/>
 
 ### 1.3添加到暂存区
 
@@ -45,11 +45,11 @@ git status
 git add 文件名
 ```
 
-![image-20230103211656056](\git_img\image-20230103211656056.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072214321.png"/>
 
 查看状态（检测到暂存区有新文件）
 
-![image-20230103211707161](\git_img\image-20230103211707161.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072221078.png"/>
 
 ### 1.4提交本地库
 
@@ -57,23 +57,21 @@ git add 文件名
 git commit -m "信息" 文件名
 ```
 
-![image-20230103212846531](\git_img\image-20230103212846531.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072226505.png"/>
 
 ​									**<u>(33973ac) 是版本号</u>**
 
 查看状态（没有文件需要提交）
 
-![image-20230103213146286](\git_img\image-20230103213146286.png)
-
-### 1.5修改文件的状态
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072226790.png"/>
 
 查看状态（工作区有更改）
 
-![image-20230104160228740](\git_img\image-20230104160228740.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072228913.png"/>
 
 提交暂存区后查看状态
 
-![image-20230104160349770](\git_img\image-20230104160349770.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072228291.png"/>
 
 ### 1.6历史版本
 
@@ -82,9 +80,9 @@ git reflog #查看版本信息
 git log #查看详细信息
 ```
 
-![image-20230104160838145](\git_img\image-20230104160838145.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072228107.png"/>
 
-![image-20230104160916695](\git_img\image-20230104160916695.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072229914.png"/>
 
 ### 1.7 版本穿梭
 
@@ -92,15 +90,15 @@ git log #查看详细信息
 git reset --hard 版本号
 ```
 
-![image-20230104162004551](\git_img\image-20230104162004551.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072230829.png"/>
 
-![image-20230104161931861](\git_img\image-20230104161931861.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072250016.png"/>
 
 ## 2.Git分支操作
 
 ### 2.1常用命令
 
-![image-20230104171454866](\git_img\image-20230104171454866.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072231411.png"/>
 
 ### 2.2查看分支
 
@@ -108,7 +106,7 @@ git reset --hard 版本号
 git branch -v 
 ```
 
-![image-20230104171112749](\git_img\image-20230104171112749.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072248746.png"/>
 
 ### 2.3创建分支
 
@@ -116,11 +114,11 @@ git branch -v
 git branch 分支名
 ```
 
-![image-20230104171228115](\git_img\image-20230104171228115.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072233348.png"/>
 
 查看分支
 
-![image-20230104171233417](\git_img\image-20230104171233417.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072238193.png"/>
 
 ### 2.4切换分支
 
@@ -128,7 +126,7 @@ git branch 分支名
 git checkout 分支名
 ```
 
-![image-20230104171936412](\git_img\image-20230104171936412.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072238235.png"/>
 
 ### 2.5合并分支
 
@@ -136,25 +134,25 @@ git checkout 分支名
 git merge 要合并的分支名
 ```
 
-![image-20230104191553253](\git_img\image-20230104191553253.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072239359.png"/>
 
 ### 2.6合并有冲突
 
-![image-20230104194409607](\git_img\image-20230104194409607.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072240159.png"/>
 
-![image-20230104194448477](\git_img\image-20230104194448477.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072240805.png"/>
 
 手动修改？？？？
 
 提交本地库不要带文件名
 
-![image-20230104195129934](\git_img\image-20230104195129934.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072240875.png"/>
 
 # GitHUb
 
 ## 1.常用命令
 
-![image-20230104203753664](git_img\image-20230104203753664.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072230830.png"/>
 
 ### 1.1 起别名
 
@@ -162,7 +160,7 @@ git merge 要合并的分支名
 git remote add 别名 远程地址
 ```
 
-![image-20230104203941208](\git_img\image-20230104203941208.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072257508.png"/>
 
 ### 1.2查看当前所有别名
 
@@ -170,7 +168,7 @@ git remote add 别名 远程地址
 git remote -v
 ```
 
-![image-20230104204027957](git_img\image-20230104204027957.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072230831.png"/>
 
 ### 1.3推送远程仓库
 
@@ -178,7 +176,7 @@ git remote -v
 git push 别名 分支
 ```
 
-![image-20230104204642240](\git_img\image-20230104204642240.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072247991.png"/>
 
 ### 1.4拉取本地库
 
@@ -186,7 +184,7 @@ git push 别名 分支
 git pull 别名 分支
 ```
 
-![image-20230104211102928](\git_img\image-20230104211102928.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072247246.png"/>
 
 1.5克隆本地库
 
@@ -194,51 +192,51 @@ git pull 别名 分支
 git clone 远程库链接
 ```
 
-![image-20230104211646019](\git_img\image-20230104211646019.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072248881.png"/>
 
-![image-20230104211658609](\git_img\image-20230104211658609.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072308810.png"/>
 
 ## 2.添加合作者
 
-![image-20230104212536717](\git_img\image-20230104212536717.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072308617.png"/>
 
-![image-20230104213147499](\git_img\image-20230104213147499.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072308706.png"/>
 
-![image-20230104213152568](\git_img\image-20230104213152568.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072308971.png"/>
 
-![image-20230104213202704](\git_img\image-20230104213202704.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072308640.png"/>
 
-![image-20230104213209626](\git_img\image-20230104213209626.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072308761.png"/>
 
-![image-20230104213218273](\git_img\image-20230104213218273.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072310888.png"/>
 
 ## 3.跨团队协作
 
-![image-20230104213359197](\git_img\image-20230104213359197.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072310466.png"/>
 
-![image-20230104213407721](\git_img\image-20230104213407721.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072310800.png"/>
 
-![image-20230104213412577](\git_img\image-20230104213412577.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072351970.png"/>
 
-![image-20230104213418064](\git_img\image-20230104213418064.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072311993.png"/>
 
-![image-20230104213425237](\git_img\image-20230104213425237.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072311641.png"/>
 
-![image-20230104213430918](\git_img\image-20230104213430918.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072311512.png"/>
 
-![image-20230104213435842](\git_img\image-20230104213435842.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072311631.png"/>
 
-![image-20230104213442669](\git_img\image-20230104213442669.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072355283.png"/>
 
-![image-20230104213503815](\git_img\image-20230104213503815.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072312225.png"/>
 
-![image-20230104213512699](\git_img\image-20230104213512699.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072359871.png"/>
 
-![image-20230104213551447](\git_img\image-20230104213551447.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072312074.png"/>
 
-![image-20230104213558582](\git_img\image-20230104213558582.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072312096.png"/>
 
-![image-20230104213605891](\git_img\image-20230104213605891.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072312650.png"/>
 
 ## 4.SSH免密登录
 
@@ -248,25 +246,25 @@ git clone 远程库链接
 ssh-keygen -t rsa -C 邮箱号
 ```
 
-![image-20230105112827625](\git_img\image-20230105112827625.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072308451.png"/>
 
 ### 生成
 
-![image-20230105113128947](\git_img\image-20230105113128947.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072312016.png"/>
 
-![image-20230105113126202](\git_img\image-20230105113126202.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072312106.png"/>
 
 ### 查看id_rsa.pub 复制
 
-![image-20230105113105360](\git_img\image-20230105113105360.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072312488.png"/>
 
 ### 然后在GitHub输入
 
-![image-20230105112756357](\git_img\image-20230105112756357.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072312257.png"/>
 
 ### 成功效果
 
-![image-20230105113216371](\git_img\image-20230105113216371.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072312506.png"/>
 
 # IDEA集成git
 
@@ -274,11 +272,11 @@ ssh-keygen -t rsa -C 邮箱号
 
 ### 	1.1 idea特定文件
 
-![image-20230105114513908](\git_img\image-20230105114513908.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072312207.png"/>
 
 ### 	1.2 maven工程的target目录
 
-![image-20230105114519705](\git_img\image-20230105114519705.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072312984.png"/>
 
 ​	这些与项目功能运行无关，不参与服务器上部署
 
@@ -286,7 +284,7 @@ ssh-keygen -t rsa -C 邮箱号
 
 ​	 建议放在用户名文件夹下
 
-![image-20230105115133476](\git_img\image-20230105115133476.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072312953.png"/>
 
 #### 		git.ignore 模板		
 
@@ -335,13 +333,13 @@ target
 	#注意：这里要使用“正斜线（/）”，不要使用“反斜线（\）”
 ```
 
-![image-20230105115554600](\git_img\image-20230105115554600.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072312568.png"/>
 
 # idea 集成gitee
 
 ## 	1.如果推送不了
 
-​	![image-20230105231603789](\git_img\image-20230105231603789.png)
+​	<img src = "https://yqlyq.github.io/problemImages/imgs202306072313728.png"/>
 
 但 GitHub可以 可能是在gitee设置了不公开邮箱地址，同时禁止了命令行推送暴露个人邮箱
 
@@ -353,18 +351,21 @@ target
 
 3.取消勾选“禁止命令行推送暴露个人邮箱”，此项默认是勾选状态
 
-![image-20230105231656616](\git_img\image-20230105231656616.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072312816.png"/>
 
 修改后成功效果
 
-![image-20230105231751980](\git_img\image-20230105231751980.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072312376.png"/>
 
 # github复制迁移到gitee
 
 ​	
 
-![image-20230105232323559](\git_img\image-20230105232323559.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072313536.png"/>
 
-![image-20230105232700567](\git_img\image-20230105232700567.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072356935.png"/>
 
-![image-20230105232715403](\git_img\image-20230105232715403.png)
+<img src = "https://yqlyq.github.io/problemImages/imgs202306072314865.png"/>
+
+
+
